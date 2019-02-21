@@ -21,8 +21,8 @@
 
 Glow::Glow(int w, int h, std::vector<Object3D*> * _objects) {
 
-	width = w;
-	height = h;
+	width = w*5;
+	height = h*5;
 	this->objects = _objects;
 	texelOffset.x = 1.0 / w;
 	texelOffset.y = 1.0 / h;

@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-#include "Glow.h"
+#include "glow.h"
 #include "object3d.h"
 #include "shaderhandler.h"
 

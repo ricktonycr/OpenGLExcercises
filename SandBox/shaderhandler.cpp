@@ -34,7 +34,7 @@ ShaderHandler* ShaderHandler::getInstance(){
  		}
  	}
 
-	GLuint programID = LoadShaders( ("../openglSandBox/shaders/"+vshaderFilename).c_str(), ("../openglSandBox/shaders/" + fshaderFilename).c_str());
+	GLuint programID = LoadShaders( ("../SandBox/shaders/"+vshaderFilename).c_str(), ("../SandBox/shaders/" + fshaderFilename).c_str());
 	Shader s;
 	s.vshader = vshaderFilename;
 	s.fshader = fshaderFilename;

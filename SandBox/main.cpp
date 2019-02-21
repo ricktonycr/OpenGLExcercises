@@ -52,10 +52,10 @@ int main( int argc, char* argv[] )
 		return -1;
 	}
 
-	glfwWindowHint(GLFW_SAMPLES, 16);
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 5);
-	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_FALSE); 
+	glfwWindowHint(GLFW_SAMPLES, 4);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); 
 
 	// Open a window and create its OpenGL context
 	int width = 1024;
@@ -105,7 +105,7 @@ int main( int argc, char* argv[] )
 
 	
 	Gizmo* gizmo = new Gizmo();
-	Object3D* mainModel = new Object3D("../openglSandBox/data/"+filename+"/",shadow,false,true);
+	Object3D* mainModel = new Object3D("../SandBox/data/"+filename+"/",shadow,false,true);
 	mainModel->loadTextureDiffuse("merc.jpg");
 	mainModel->loadTextureSpec("spec.jpg");
 	mainModel->loadTextureEmissive("emissive.jpg");

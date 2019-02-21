@@ -11,10 +11,10 @@
 
 #include <map>
 
-#include <FreeImage.h>
-
 #include <IL/il.h>
 #include <IL/ilu.h>
+#include "FreeImage.h"
+
 
 
 

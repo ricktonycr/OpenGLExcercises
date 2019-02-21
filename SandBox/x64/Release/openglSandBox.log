@@ -1,0 +1,36 @@
+﻿  controls.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\common\controls.cpp(118): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  objloader.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\common\objloader.cpp(893): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  quaternion_utils.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\common\quaternion_utils.cpp(165): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  shader.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\common\shader.cpp(111): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  tangentspace.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\common\tangentspace.cpp(74): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  texture.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\common\texture.cpp(711): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  vboindexer.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\common\vboindexer.cpp(178): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  fbo.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\fbo.cpp(196): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  gizmo.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\gizmo.cpp(119): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  lighthandler.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\lighthandler.cpp(71): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  main.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\main.cpp(270): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  mesh.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\mesh.cpp(464): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  node.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\node.cpp(40): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  object3d.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\object3d.cpp(105): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  shaderhandler.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\shaderhandler.cpp(49): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  shadowmap.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\shadowmap.cpp(62): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  skeleton.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\skeleton.cpp(178): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?
+  texturehandler.cpp
+c:\users\marca\source\repos\openglsandbox\openglsandbox\texturehandler.cpp(105): fatal error C1010: fin de fichier inattendue lors de la recherche d'un en-tête précompilé. N'auriez-vous pas oublié d'ajouter '#include "pch.h"' à votre source ?

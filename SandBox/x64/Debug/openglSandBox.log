@@ -1,0 +1,2 @@
+﻿LINK : warning LNK4098: conflit entre la bibliothÞque par dÚfaut 'MSVCRT' et les autres bibliothÞquesá; utilisez /NODEFAULTLIB:library
+  openglSandBox.vcxproj -> C:\Users\marca\source\repos\openglSandBox - Copie\x64\Debug\openglSandBox.exe

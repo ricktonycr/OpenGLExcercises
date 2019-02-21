@@ -1,0 +1,83 @@
+﻿controls.obj : error LNK2019: symbole externe non résolu _glfwGetKey référencé dans la fonction "void __cdecl computeMatricesFromInputs(void)" (?computeMatricesFromInputs@@YAXXZ)
+Phong.obj : error LNK2001: symbole externe non résolu _glfwGetKey
+controls.obj : error LNK2019: symbole externe non résolu _glfwGetCursorPos référencé dans la fonction "void __cdecl computeMatricesFromInputs(void)" (?computeMatricesFromInputs@@YAXXZ)
+controls.obj : error LNK2019: symbole externe non résolu _glfwSetCursorPos référencé dans la fonction "void __cdecl computeMatricesFromInputs(void)" (?computeMatricesFromInputs@@YAXXZ)
+Phong.obj : error LNK2001: symbole externe non résolu _glfwSetCursorPos
+controls.obj : error LNK2019: symbole externe non résolu _glfwGetTime référencé dans la fonction "void __cdecl computeMatricesFromInputs(void)" (?computeMatricesFromInputs@@YAXXZ)
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewAttachShader
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewCompileShader
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewCreateProgram
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewCreateShader
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewDeleteShader
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewDetachShader
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewGetProgramInfoLog
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewGetProgramiv
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewGetShaderInfoLog
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewGetShaderiv
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewLinkProgram
+shader.obj : error LNK2001: symbole externe non résolu __imp____glewShaderSource
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewActiveTexture
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewActiveTexture
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewBindBuffer
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewBindBuffer
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewBindBuffer
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewBufferData
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewBufferData
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewBufferData
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewDeleteBuffers
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewDeleteBuffers
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewDeleteBuffers
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewGenBuffers
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewGenBuffers
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewGenBuffers
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewDeleteProgram
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewDeleteProgram
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewDeleteProgram
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewDisableVertexAttribArray
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewDisableVertexAttribArray
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewDisableVertexAttribArray
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewEnableVertexAttribArray
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewEnableVertexAttribArray
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewEnableVertexAttribArray
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewGetUniformLocation
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewGetUniformLocation
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewGetUniformLocation
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewUniform1i
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewUniform1i
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewUseProgram
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewUseProgram
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewUseProgram
+text2D.obj : error LNK2001: symbole externe non résolu __imp____glewVertexAttribPointer
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewVertexAttribPointer
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewVertexAttribPointer
+texture.obj : error LNK2001: symbole externe non résolu __imp____glewCompressedTexImage2D
+texture.obj : error LNK2001: symbole externe non résolu __imp____glewGenerateMipmap
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewUniformMatrix4fv
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewUniformMatrix4fv
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewBindVertexArray
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewBindVertexArray
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewDeleteVertexArrays
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewDeleteVertexArrays
+gizmo.obj : error LNK2001: symbole externe non résolu __imp____glewGenVertexArrays
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewGenVertexArrays
+object3d.obj : error LNK2001: symbole externe non résolu __imp____glewUniform3f
+Phong.obj : error LNK2019: symbole externe non résolu __imp__glewInit@0 référencé dans la fonction _main
+Phong.obj : error LNK2019: symbole externe non résolu _glfwInit référencé dans la fonction _main
+Phong.obj : error LNK2019: symbole externe non résolu _glfwTerminate référencé dans la fonction _main
+Phong.obj : error LNK2019: symbole externe non résolu _glfwWindowHint référencé dans la fonction _main
+Phong.obj : error LNK2019: symbole externe non résolu _glfwCreateWindow référencé dans la fonction _main
+Phong.obj : error LNK2019: symbole externe non résolu _glfwWindowShouldClose référencé dans la fonction _main
+Phong.obj : error LNK2019: symbole externe non résolu _glfwSetWindowPos référencé dans la fonction _main
+Phong.obj : error LNK2019: symbole externe non résolu _glfwPollEvents référencé dans la fonction _main
+Phong.obj : error LNK2019: symbole externe non résolu _glfwSetInputMode référencé dans la fonction _main
+Phong.obj : error LNK2019: symbole externe non résolu _glfwMakeContextCurrent référencé dans la fonction _main
+Phong.obj : error LNK2019: symbole externe non résolu _glfwSwapBuffers référencé dans la fonction _main
+Phong.obj : error LNK2001: symbole externe non résolu __imp__glewExperimental
+C:\Users\marca\source\repos\Phong\Phong\lib\glew32.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\marca\source\repos\Phong\Phong\lib\glfw3.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\marca\source\repos\Phong\Phong\lib\glfw3dll.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\marca\source\repos\Phong\Phong\lib\FreeImage.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\marca\source\repos\Phong\Phong\lib\DevIL.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\marca\source\repos\Phong\Phong\lib\ILU.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\marca\source\repos\Phong\Phong\lib\ILUT.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'x86'
+C:\Users\marca\source\repos\Phong\Debug\Phong.exe : fatal error LNK1120: 47 externes non résolus

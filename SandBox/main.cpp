@@ -42,9 +42,9 @@ int main( int argc, char* argv[] )
 	float rotatex=0.0f;
 	float scaleUniform=1.0f;
 
-	bool useGlow = false;
-	bool shadow = false;
-	bool useBloom = false;
+	bool useGlow = true;
+	bool shadow = true;
+	bool useBloom = true;
 	if( !glfwInit() )
 	{
 		fprintf( stderr, "Failed to initialize GLFW\n" );
@@ -52,10 +52,10 @@ int main( int argc, char* argv[] )
 		return -1;
 	}
 
-	glfwWindowHint(GLFW_SAMPLES, 4);
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); 
+	glfwWindowHint(GLFW_SAMPLES, 16);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 4);
+	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_FALSE); 
 
 	// Open a window and create its OpenGL context
 	int width = 1024;
@@ -99,7 +99,7 @@ int main( int argc, char* argv[] )
 	glDepthFunc(GL_LESS); 
 	//glEnable(GL_CULL_FACE);
 
-	LightHandler::getInstance()->addLight(glm::vec4(5.0,2.0,0.2,1.0), glm::vec4(0.2,0.2,0.2,1.0));
+	LightHandler::getInstance()->addLight(glm::vec4(5.0,2.0,0.2,1.0), glm::vec4(0.4,0.4,0.4,1.0));
 	LightHandler::getInstance()->addLight(glm::vec4(-4.0,4.0,1.0,1.0), glm::vec4(0.0,0.0,0.0,1.0));
 	LightHandler::getInstance()->addLightForShadow(glm::vec3(4.0,5.0,3.0));
 
@@ -136,12 +136,12 @@ int main( int argc, char* argv[] )
 
 
 	if(useGlow || useBloom){
-		/*//FBO FOR Emissive Draw
+		//FBO FOR Emissive Draw
 		fboEmissive = new FBO(width,height,"Passthrough.vert", "fbouseGlowX.frag");
 		//FBO FOR GLOW X On emissive texture
 		fboGlowX = new FBO(width,height,"Passthrough.vert", "fbouseGlowX.frag");
-		//FBO FOR GLOW Y On GLOW X texture and merge with normal rendering*/
-		fbo =  new FBO(width*2,height*2,"Passthrough.vert", "fboAdd.frag");
+		//FBO FOR GLOW Y On GLOW X texture and merge with normal rendering
+		fbo =  new FBO(width*2,height*2,"Passthrough.vert", "fboAdd.frag");/**/
 
 		fbo->setEmissiveTexture(glow->renderedTexture);
 		fbo->setBloomTexture(bloom->renderedTexture);

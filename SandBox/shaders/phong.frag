@@ -63,7 +63,7 @@ void main(){
 	}
 
 	
-	specFactor = texture( specTextureSampler, UV ).r+0.5;
+	specFactor = texture( specTextureSampler, UV ).r;
 
 	vec3 n = normalize( Normal_cameraspace );
 	vec3 v = normalize(EyeDirection_cameraspace);
